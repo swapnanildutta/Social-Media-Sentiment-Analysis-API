@@ -28,9 +28,9 @@ def model_pred(json_file):
     df['cleantext']=df['cleantext'].str.replace("[^a-zA-Z]", " ")
 
     #Extract models from saved models
-    vect=CountVectorizer(decode_error="replace", vocabulary=pickle.load(open("FEATURE FILE", "rb")))
+    vect=CountVectorizer(decode_error="replace", vocabulary=pickle.load(open("feature.pkl", "rb"))) #Change the feature vector
     test=vect.transform(df['cleantext'])
-    model=pickle.load(open("SAVED MODEL", "rb"))
+    model=pickle.load(open("finalized_model.sav", "rb")) #Change the model name
 
     #Pass the data to the model
     res=model.predict(test)
