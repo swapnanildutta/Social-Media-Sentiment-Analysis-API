@@ -31,4 +31,9 @@ This is just the API of our project, hosted on Heroku and hence the Procfile is 
 
 ### Output
 
-<img src='Static\Sketch001.jpg'>
+<p align="center">
+<img src='Static\1.jpg' alt="Browser View">
+</p>
+<p align="center">
+<img src='Static\2.jpg' alt="API Tester View">
+</p>
