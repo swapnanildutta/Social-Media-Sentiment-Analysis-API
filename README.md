@@ -29,11 +29,13 @@ This is just the API of our project, hosted on Heroku and hence the Procfile is 
 
 - Link the repository to the Heroku pipeline.
 
-### Output
+### Output ( Same for Locally and Remotely Hosted )
 
+Viewed In Browser:
 <p align="center">
 <img src='Static\1.jpg' alt="Browser View">
 </p>
+Viewed In API Testing Platform:
 <p align="center">
 <img src='Static\2.jpg' alt="API Tester View">
 </p>
