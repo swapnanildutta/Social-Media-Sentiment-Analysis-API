@@ -29,3 +29,6 @@ This is just the API of our project, hosted on Heroku and hence the Procfile is 
 
 - Link the repository to the Heroku pipeline.
 
+### Output
+
+<img src='Static\Sketch001.jpg'>
