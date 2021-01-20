@@ -1,6 +1,6 @@
 nltk==3.5
 numpy==1.19.4
-pandas==1.2.0
+pandas==1.2.1
 regex==2020.11.13
 scikit-learn==0.24.0
 scipy==1.6.0
