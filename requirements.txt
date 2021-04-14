@@ -2,7 +2,7 @@ nltk==3.5
 numpy==1.20.2
 pandas==1.2.4
 regex==2021.3.17
-scikit-learn==0.24.0
+scikit-learn==0.24.1
 scipy==1.6.2
 sklearn==0.0
 sklearn-pandas==2.1.0
