@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nltk
+    versions:
+    - 3.6.1
+  - dependency-name: pandas
+    versions:
+    - 1.2.1
+    - 1.2.2
+    - 1.2.4
+  - dependency-name: regex
+    versions:
+    - 2021.3.17
+  - dependency-name: numpy
+    versions:
+    - 1.19.5
+    - 1.20.0
