@@ -1,5 +1,5 @@
 nltk==3.5
-numpy==1.20.2
+numpy==1.20.3
 pandas==1.2.4
 regex==2021.3.17
 scikit-learn==0.24.0
