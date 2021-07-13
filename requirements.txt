@@ -5,7 +5,7 @@ regex==2021.7.6
 scikit-learn==0.24.0
 scipy==1.7.0
 sklearn==0.0
-sklearn-pandas==2.1.0
+sklearn-pandas==2.2.0
 xgboost==1.4.0
 Flask==2.0.1 
 tweepy==3.10.0
