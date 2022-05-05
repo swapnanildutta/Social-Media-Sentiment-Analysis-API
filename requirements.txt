@@ -8,5 +8,5 @@ sklearn==0.0
 sklearn-pandas==2.2.0
 xgboost==1.6.0
 Flask==2.1.2 
-tweepy==4.8.0
+tweepy==4.9.0
 gunicorn==20.1.0
